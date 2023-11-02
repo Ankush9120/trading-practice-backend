@@ -8,7 +8,7 @@ const app = express();
 
 app.use(cors());
 // app.use(express.json());
-app.use(cookieParser());
+// app.use(cookieParser());
 
 const uri = `mongodb+srv://Ankush9120:${process.env.KEY}@cluster0.9tcj5v0.mongodb.net/?retryWrites=true&w=majority`
 
